@@ -42,7 +42,7 @@ public class Program {
 		System.out.println("\n=== TEST 5: seller update ===");
 		seller = sellerDao.findById(1);
 		seller.setName("Martha Waine");
-		sellerDao.updated(seller);
+		sellerDao.update(seller);
 		System.out.println("Updated completed");
 		
 		System.out.println("\n=== TEST 6: seller delete ===");
